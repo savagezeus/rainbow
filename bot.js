@@ -5,7 +5,7 @@ client.on("ready", () => {
 
   console.log(`Logged in as ${client.user.username}!`);
 
-  client.user.setActivity('made by ZEUS', {type: "streaming"})
+  client.user.setActivity('HELPING PPL ON KRATISO', {type: "streaming"})
 console.log(`${client.user.tag} running on ${client.guilds.size} guilds with ${client.users.size} users.`);
 });
  
