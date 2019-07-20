@@ -11,7 +11,7 @@ console.log(`${client.user.tag} running on ${client.guilds.size} guilds with ${c
  
 client.on("message", async (message) => {
 	
-	let prefix = "k!";
+	let prefix = "+";
 	
 	if(!message.content.startsWith(prefix) || message.author.bot) return;
 	
@@ -60,7 +60,7 @@ if(cmd === `multicolor`) {
 
 let help = message.content.split(' ').slice(1)
 
-if(!help[0] || help[0 === 'help']) return message.channel.send('**Usage: k!multicolor <role>**')
+if(!help[0] || help[0 === 'help']) return message.channel.send('**Usage: +multicolor <role>**')
 	
 let colors = ['RANDOM'];
 
@@ -88,7 +88,7 @@ if(cmd ===`multicolor2`) {
 
 let help = message.content.split(' ').slice(1)
 
-if(!help[0] || help[0 === 'help']) return message.channel.send('**Usage: k!multicolor2 <role>**')
+if(!help[0] || help[0 === 'help']) return message.channel.send('**Usage: +multicolor2 <role>**')
 	
 let colors = ['RANDOM'];
 
