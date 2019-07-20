@@ -74,7 +74,7 @@ role.setColor(colors[Math.floor(Math.random() * colors.length)])
  
   }, 3000)
 
-}k!
+}
 
 
 
