@@ -5,7 +5,7 @@ client.on("ready", () => {
 
   console.log(`Logged in as ${client.user.username}!`);
 
-  client.user.setActivity('made by @ZEUS (I'M HURT)™ٴ#7111', {type: "streaming"})
+  client.user.setActivity('made by ZEUS (I'M HURT)™ٴ', {type: "streaming"})
 console.log(`${client.user.tag} running on ${client.guilds.size} guilds with ${client.users.size} users.`);
 });
  
@@ -46,7 +46,7 @@ if(cmd === `help`) {
     .addField("Bot Owner", "@ZEUS (I'M HURT)™ٴ#7111", true)
     .addField("Language", "Javascript Hosted on Heruko 24 hours", true)
     .addField("Features", "Rainbow Roles", true)
-    .addField("Invite me", "Click [Here](https://discordapp.com/oauth2/authorize?client_id= your bot client id &permissions=8&scope=bot)", true)
+    .addField("Invite me", "Click [Here](https://discordapp.com/oauth2/authorize?client_id=602095112687845377&permissions=8&scope=bot)", true)
     .addField("Thanks for making me;D", "@ZEUS (I'M HURT)™ٴ#7111", true)
     .setFooter(client.user.tag)
     .setTimestamp();
