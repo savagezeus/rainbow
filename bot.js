@@ -43,11 +43,10 @@ if(cmd === `help`) {
     .setAuthor(message.author.username)
     .setColor('RANDOM')
     .setDescription("Bot Details")
-    .addField("Bot Owner", "@ZEUS (I'M HURT)™ٴ#7111", true)
+    .addField("Bot Owner", "@ZeusQT#9999", true)
     .addField("Language", "Javascript Hosted on Heruko 24 hours", true)
     .addField("Features", "Rainbow Roles", true)
-    .addField("Invite me", "Click [Here](https://discordapp.com/oauth2/authorize?client_id=602095112687845377&permissions=8&scope=bot)", true)
-    .addField("Thanks for making me;D", "@ZEUS (I'M HURT)™ٴ#7111", true)
+    .addField("Thanks for making me;D", "@ZeusQT#9999#7111", true)
     .setFooter(client.user.tag)
     .setTimestamp();
     message.channel.send(embed)
